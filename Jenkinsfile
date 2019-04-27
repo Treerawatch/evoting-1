@@ -8,7 +8,7 @@ pipeline {
           stage('Source') {
                steps {
                     git branch: 'master',
-                         url: 'https://github.com/Treerawatch/evoting.git'
+                         url: 'https://github.com/Treerawatch/evoting-1.git'
                }
           }
           stage('Build') {
